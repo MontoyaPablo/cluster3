@@ -8,6 +8,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Vollkorn', serif; */
 }
+
+#h1{
+    font-family: Righteous; font-size: 60px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; color:rgb(7, 7, 7);
+}
+
 a{
     text-decoration: none;
 }
@@ -268,10 +273,24 @@ a{
             margin-right: 10px;
         }
 
+    .container-mision-vision-valor {
+        background-color: rgba(100, 148, 237, 0.39);
+        column-width: 200px;
+        column-fill: auto;
+        /*height: 180px;
+        text-align: left;*/
+
+        flex:1 1 auto; /* Ver tamaño de productos */
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+
+    }
 
 
-
-        @media all and (max-width:600px) {
+    @media all and (max-width:600px) {
     .seccion-catalogo{
         flex-direction: column;
     }
